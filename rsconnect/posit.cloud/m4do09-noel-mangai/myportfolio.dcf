@@ -1,0 +1,14 @@
+name: myportfolio
+title: MyPortfolio
+username: m4do09-noel-mangai
+account: m4do09-noel-mangai
+server: posit.cloud
+hostUrl: https://api.posit.cloud/v1
+appId: 8114423
+bundleId: 8555269
+url: https://posit.cloud/content/8114423
+version: 1
+quarto_version: 1.3.450
+quarto_engines: markdown
+asMultiple: FALSE
+asStatic: FALSE

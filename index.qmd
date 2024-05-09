@@ -1,0 +1,17 @@
+---
+title: "Noel Mangai"
+image: headcrop2.jpg
+about:
+  template: jolla
+  image-width: 20em
+  image-shape: round
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/noel-mangai/
+    - icon: envelope
+      text: Contact me
+      href: mailto:Noelmangai001@gmail.com
+---
+
+Hello! I'm Noel, A dedicated enthusiast with a background in Data Intelligence and Business Analytics, and a proud graduate from the University of West Georgia. I invite you to look into my projects, where i showcase my blend of creative problem solving with technical expertise. Join me as I share the hidden stories within numbers.

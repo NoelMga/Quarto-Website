@@ -1,0 +1,43 @@
+---
+title: "About"
+image: Headshot_black.jpg
+about:
+  template: broadside
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/noel-mangai/
+    - icon: envelope
+      text: Contact me
+      href: mailto:Noelmangai001@gmail.com
+---
+
+My journey into the world of analytics began with a curiosity to understand the hidden stories within statistics. Throughout my academic, personal and professional career, I have developed a thorough skill set enabling me to perform data analysis, statistical modeling, machine learning, data visualization, and much more.
+
+In partnership with these tools are a constant drive for growth, a refined ability in communication, and a passion for collaborative problem solving. These qualities are the bread and butter in my approach to data science, enabling me to not just analyze data but effectively convey its meaning and insights to drive significant change.
+
+**TECHNICAL SKILLS**
+
+-   **R Programming** - data manipulation, visualization, and analysis.
+
+-   **SQL** - database creation and maintenance.
+
+-   **SAS** - advanced analytics and business intelligence.
+
+-   **SAS Data Miner** - discover patterns within data for predictive modeling.
+
+-   **SPSS** - statistical data analysis.
+
+-   **Tableau** - Data visualization and dashboards.
+
+-   **PowerBI** - Data Visualization and process automation.
+
+-   **Microsoft Office Suite** - productivity tools including Word, Excel, PowerPoint etc.
+
+-   **Excel** - spreadsheet software for analysis.
+
+**EDUCATION**
+
+Richards College of Business, University of West Georgia -
+
+Bachelor of Business Administration: Data Intelligence and Business Analytics.
