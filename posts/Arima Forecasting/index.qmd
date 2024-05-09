@@ -1,0 +1,33 @@
+---
+title: "Predicting the GDP of China in R"
+author: "Noel Mangai"
+date: "2023-11-21"
+categories: [R, code, analysis, Forecasting]
+image: "image.jpg"
+---
+
+## Introduction
+
+This project aims to perform forecasting in R using ARIMA modeling, autocorrelation functions, and ETS models. The Image below displays the final ARIMA forecast.
+
+![](ARIMAmodel.png)
+
+#### Data Preparation
+
+To get this analysis started, the CNAGDP.csv file from the Federal Reserve of Economic Data (FRED) is read in. Some pre-processing steps involve turning it into a time series tibble and visualizing the data.
+
+#### AutoCorrelation Function
+
+Following this, I calculate the Autocorrelation Function (ACF) of the variable MKTGDPCNA646NWDB to analyze its correlation with its lagged values
+
+![](CNAACF.png)
+
+#### Exponential Smoothing
+
+An exponential smoothing model is fitted using the 'ets' function, and that is followed up by creating a one step forecast using the 'forecast' function.
+
+#### ARIMA Model
+
+Finally, it is time for the Auto Regressive Integrated Moving Average (ARIMA) Model, created using the 'auto.arima' function.
+
+this function is great because it automatically selects the best ARIMA model based on my data. a one-step-ahead forecast is created, and the plot of our forecast, which you have seen above, is created.

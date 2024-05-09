@@ -1,0 +1,14 @@
+{
+  "hash": "bf7df827c72bd822546d43817bcd98d3",
+  "result": {
+    "markdown": "---\ntitle: \"Predicting the GDP of China in R\"\nauthor: \"Noel Mangai\"\ndate: \"2023-11-21\"\ncategories: [R, code, analysis, Forecasting]\nimage: \"image.jpg\"\n---\n\n\n## Introduction\n\nThis project aims to perform forecasting in R using ARIMA modeling, autocorrelation functions, and ETS models. The Image below displays the ARIMA forecast gotten when running all code.\n\n![](ARIMAmodel.png)\n\n## Packages Used\n\n\n\n\n\n## Data Preparation\n\nTo get this analysis started, the CNAGDP.csv file from the Federal Reserve of Economic Data (FRED) is read in. Some pre-processing steps involve turning it into a time series tibble and visualizing the data.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

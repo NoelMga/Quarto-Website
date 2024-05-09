@@ -1,0 +1,35 @@
+---
+title: "Regression Analysis - Predicting Homeownership in R"
+author: "Noel Mangai"
+date: "2024-4-21"
+categories: [R, code, analysis, machine learning]
+image: "HomeOwnership by State.png"
+execute:
+  echo: false
+---
+
+## Introduction
+
+This Project seeks to understand the dynamics of home ownership within the labor force of the United States using data sourced from the American Community Survey (ACS).
+
+Home ownership Reflects the Social and economic aspects of an individual's life, and the ability to own a home is an important economic indicator. this project looks to find the most important factors determining if one can own a home, and creates an interesting visualization which can aid anyone looking to own a home find the right U.S State for them.
+
+#### Descriptive Analysis
+
+This data from the ACS shows home ownership by state. Note that (1) is Owned/Loaned, (2) is Renter, and (3) is Neither. Note that states are represented by their FIPS codes. Later, we'll change this to state abbreviations when we make state-specific predictions.
+
+![](HomeOwnership by State.png)
+
+#### Regression
+
+This Project makes use of Linear Regression and a step-wise function, all done in R. From this, we can see our Coefficients. Remember, a high coefficient indicates that the corresponding predictor variable has a strong influence on the outcome, which in this case is home ownership. Some of our most important predictors are Income, Poverty, Marriage status, and education.
+
+![](coefficientsStepwise.png)
+
+#### Predicted Probabilities by State
+
+Now, for a visualization that can help inform your next move, here is a visualization of the predicted probability of owning a home dependent on your state.
+
+![](predictedprob.png)
+
+The descriptive analysis, Regression and predicted probabilities in this project use analytics tools to inform about homeownership, an important economic and social aspect of everyone's life. to learn more about the project, feel free to check out my github page.

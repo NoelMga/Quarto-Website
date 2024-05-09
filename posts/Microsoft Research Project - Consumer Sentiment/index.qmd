@@ -1,0 +1,53 @@
+---
+title: "Microsoft Research Project - Consumer Sentiments"
+authors: "Noel Mangai, Matthew Ginn, Katie Wirth, D'Angelo Hughes, Lucas Millians, Calvin Allums, Noah Garland, Justin Battie, Scott Garland, Royce Hoskin"
+date: "2024-4-25"
+categories: [SPSS, Excel, Research, analysis, Qualtrics]
+image: "MSResearch1.png"
+execute:
+  echo: false
+---
+
+## Introduction
+
+Microsoft was founded in 1975 and grew into a technological powerhouse, reaching a market cap of \$35 billion by 1995. Almost 3 decades later, this company is now valued at \$3 trillion, making it the largest company in the world, followed by its long-time competitor, Apple, at \$2.26 trillion. 
+
+Microsoft’s strategy has been one focused on providing software to both consumers and organizations, as well as hardware to meet customer’s needs as they arise. In their Fiscal Year 2023 earnings call, Microsoft’s CEO, Satya Nadella, explained their focus on three key priorities: 
+
+“First, helping customers use the breadth and depth of Microsoft Cloud to get the most value out of their spend. Second, investing to lead in the new AI platform shift by infusing AI across every layer of the tech stack. And, third, driving operating leverage.” 
+
+With these key priorities in mind, we analyze this data in order to aid the company in realizing its goals, gathering customer sentiment data in various hardware and software.
+
+#### Methodology
+
+The questionnaire used for our data was created on Qualtrics. Using an anonymous link, it was disseminated to students, faculty, staff, family, and friends.
+
+The questionnaire consists of twenty-five questions. Sixteen of these are Likert-scale allowing respondents to rate their experiences ranging from strongly agree to strongly disagree. Another three were nominal-scaled, inquiring names, labels, and identifications. Six of the questions that were used for the questionnaire were ratio-scaled, created to answer open-ended questions.
+
+All responses were collected through online platforms. We did not focus our data collection on any specific part of the campus. Respondents that participated in the questionnaire totaled at 385, so as to achieve a significant amount of responses for statistical operations. All data was transferred into SPSS and used for statistical analysis.
+
+#### Analysis (snippets)
+
+![](MSResearch1.png)
+
+![](MSResearch2.png)
+
+#### Findings
+
+This analysis gave us insight into what customers really think about Microsoft as a whole, regarding their products, effectiveness, and customer satisfaction. Our survey yielded approximately 385 respondents, and each question answered was used to create statistical data. We examined all of these statistical analysis and came to the following conclusions:
+
+Our test of one proportion of gender revealed that our sample is representative of UWG’s undergraduate population of females. Both males and females had similar means for the following variables:
+
+-   I would recommend Microsoft to a peer/friend 
+
+-   I am satisfied with Microsoft’s prices
+
+-   I would use Microsoft more if its prices were different 
+
+-   Microsoft fits my specific needs well 
+
+-   Microsoft has a wide array of products that I would use 
+
+The strong majority of respondents agreed to some degree that Microsoft’s products are effective in the workplace. When questioned on  the advertising effectiveness of Microsoft’s products, roughly 59 percent of respondents agreed to some degree, leaving a considerable margin for improvement.
+
+The full report, Including all statistical processes such as chi square tests, tests of differences between means, ARIMA, test of one mean and more are available on my github repository.

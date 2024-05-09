@@ -1,0 +1,49 @@
+---
+title: "Sentiment Through Time - A Multi-Year Analysis of  Scholarly and Public Discourse on AI"
+author: "Noel Mangai"
+date: "2024-4-26"
+categories: [R, code, analysis]
+image: "PercentagePositiveSentimentBar.png"
+execute:
+  echo: false
+---
+
+## Introduction
+
+The Primary goal of this project is to understand any trends in the sentiment of scholarly and popular literature regarding AI across recent history. This is achieved through gathering and processing data, creating a timeline of major events regarding AI, and analyzing text data in R to spot trends over time.
+
+#### Data Collection
+
+Data was collected from multiple sources, with a system in place to ensure relevant data that would yield significant and accurate results.
+
+So how was data acquired?
+
+-   Research and opinion articles pulled through Google Scholar.
+
+    -   Keyword Search: AI.
+
+    -   Sorted for Most Relevant in each given year.
+
+    -   only articles containing opinionated wording selected. No neutral-toned research/academic articles.
+
+    -   Articles that could not be accessed were skipped.
+
+    -   60 Articles chosen in total.
+
+#### Analysis
+
+Below is a bar graph visualizing the percentage of positive net sentiment each year.
+
+![](PercentagePositiveSentimentBar.png)
+
+#### Some Insights
+
+The dip in sentiment in 2022 coincides with the release of ChatGPT. This May be due to early skepticism of the technology. The growing positive sentiment after the fact may be due to the subsequent integration of AI in daily life, and the acknowledgement of AI's benefits by formerly skeptical parties.
+
+![](WORDCLOUD21.png){width="464"}
+
+![](WORDCLOUD22.png)
+
+![](WORDCLOUD23.png)
+
+(2021,2022, and 2023 word clouds respectively)

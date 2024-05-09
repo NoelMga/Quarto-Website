@@ -1,0 +1,21 @@
+---
+title: "Creating and Maintaining a Database for a Property Management COmpany"
+author: "Noel Mangai"
+date: "2024-4-19"
+categories: [SQL, code, database]
+image: "RelationalDiagram.png"
+execute:
+  echo: false
+---
+
+## Introduction
+
+With this project, we make use of ER diagrams to guide us in creating a database using SQL on ms SQL server. We also query data from the database to simulate business situations. Our database is for an apartment complex, where we make sure to account for the number of apartments, tenants, maintenance, rooms, and more. This database can be used by a company to facilitate all information regarding their apartments, from leases to specifications.
+
+#### Relational Model
+
+Here, you can see the relational model which aided in guiding the modeling of the database.
+
+![](RelationalDiagram.png)
+
+Be sure to check out the statements used to create the database on my github repository. It also includes statements to be used in different scenarios, querying specific information to aid business processes.
